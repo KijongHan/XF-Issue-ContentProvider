@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="com.example.testpoc2">
+	<uses-sdk android:minSdkVersion="21" android:targetSdkVersion="30" />
+	<application android:label="TestPOC2.Android" android:theme="@style/MainTheme"></application>
+	<permission android:name="com.example.READ_DATABASE" android:protectionLevel="normal" />
+	<permission android:name="com.example.WRITE_DATABASE" android:protectionLevel="normal" />
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+</manifest>
